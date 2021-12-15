@@ -1,12 +1,23 @@
+# Permalinks
+permalink: /:year-:month-:day/:title
+
+# Setup
 title: '# Hello, world!'
 logo_img: /assets/img/icons/golasblog_logo.svg
 favicon: /assets/favicon.ico
 description: description
 global_tags: jekyll theme simplex golasblog responsive html5
 copyright: © Golasowski 2021
+baseurl: ''
+url: 'https://tearbird99.github.io/'
 
+# Assets
 sass:
+    sass_dir: _sass
     style: compressed
+
+# Build settings
+markdown: kramdown
 
 collections:
     category:
@@ -21,3 +32,7 @@ defaults:
       type: category
     values:
       layout: "category"
+
+# Gems -> plugins
+plugins:
+    - jekyll-paginate
