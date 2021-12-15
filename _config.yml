@@ -19,6 +19,11 @@ sass:
 # Build settings
 markdown: kramdown
 
+# About
+author:
+    name: Eugene Seo
+    email: tearbird99@naver.com
+
 collections:
     category:
         output: true
