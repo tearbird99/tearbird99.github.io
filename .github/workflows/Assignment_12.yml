@@ -1,0 +1,17 @@
+name: Assignment_12
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build: 
+    runs-on: 
+    env:
+      FIB_INPUT: 10
+    
+    steps:
+      - uses: 
+      
+      -name: 
+        run: 
